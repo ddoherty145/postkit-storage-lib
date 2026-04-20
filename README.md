@@ -81,3 +81,4 @@ if (imported.length === 0) {
 - exportPosts returns a string instead of triggering a download because downloading is a UI concern — the app decides how to deliver it.
 - importPosts returns [] on bad input instead of throwing so the app has something predictable to check and respond to, rather than needing a try/catch at every call site.
 - loadPosts returns [] instead of null so the result is immediately usable — no null checks needed before calling .map() or .filter().
+  
