@@ -1,10 +1,12 @@
 {
   "name": "postkit-storage-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Persists PostKit posts to browser localStorage and supports import/export of post data as JSON.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest"
